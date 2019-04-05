@@ -1,0 +1,97 @@
+/*
+    Name: Savong Tan
+    Date: 10/23/2018
+    Section: CSE 154 AC
+    This is the set.css for the set game.
+*/
+html{
+    font-family: Helvetica, Verdana;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+  width:80%;
+  margin: auto;
+}
+
+#menu-view article{
+  background-color: #6F77ED;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  color: white;
+  font-size: 12pt;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start{
+  padding: 8px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#details{
+  display:flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  border-top-left-radius: .5cm;
+  border-top-right-radius: .5cm;
+}
+
+button, select{
+  background-color: white;
+  border:2pt solid black;
+  padding: 8px;
+}
+
+#game-view{
+  background-color: white;
+  border: 5pt;
+  border-color: black;
+}
+
+#game{
+  display: flex;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border-style: solid;
+}
+
+.card {
+  border: solid;
+  border-radius: 1cm;
+  height: 75px;
+  width: 200px;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.selected{
+  box-shadow: 6px 6px  #636363;
+}
+
+img{
+  height: 75px;
+  width: auto;
+}
+
+.hidden{
+  display: none;
+}
